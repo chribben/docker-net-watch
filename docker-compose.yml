@@ -1,0 +1,6 @@
+web:
+  build: .
+  ports:
+    - "5004:5004"
+  volumes:
+    - .:/app
